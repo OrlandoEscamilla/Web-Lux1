@@ -1,0 +1,12 @@
+@font-face{
+        font-family:letra1;
+        src: url(letra1.ttf);
+      }
+@font-face{
+		font-family:letra2;
+        src: url(letra2.otf);
+}
+@font-face{
+		font-family:fuentegeoteconegrita;
+        src: url(Aller_Bd.ttf);
+}

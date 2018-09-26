@@ -1,0 +1,734 @@
+*{
+box-sizing: border-box;	
+}
+body{
+	
+	background-color: #000;
+}
+.wrap_container{
+max-width: 1300px;
+margin:0 auto;
+
+}
+.section1{
+	width: 100%;
+	-webkit-box-shadow: -1px 3px 89px 53px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 89px 53px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 89px 53px rgba(0,0,0,0.75);
+	height: 100%;
+}
+.primer_bloque{
+width: 900px;
+height: 200px;
+
+
+
+}
+.primer_bloque_izquierdo{
+	
+    height: 100%;
+    /* width: 200px; */
+    text-align: center;
+    /* float: left; */
+}
+.primer_bloque_izquierdo img{
+
+	width: 60%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.primer_bloque_derecho{
+    width: 70%;
+    height: 100%;
+    margin-left: 30px;
+    float: left;
+    margin-top: 110px;
+}
+.texto1{
+	font-size: 1em;
+	font-family: letra1;
+	color: #fff;
+	
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.texto2{
+	font-family: letra2;
+	font-size: 4em;
+	color: #c7a846;
+	
+	margin-top: -10px;
+	margin-bottom: 7px;	
+}
+.texto3{
+	font-family: letra2;
+    color: #c7a846;
+    font-size: 1.7em;
+    margin-top: -20px;
+	
+}
+
+
+
+
+.segundo_bloque{
+width: 900px;
+height: 200px;
+}
+.segundo_bloque_izquierdo{
+	    height: 100%;
+    /* width: 200px; */
+    text-align: center;
+}
+.segundo_bloque_izquierdo img{
+	
+	width: 60%;
+	margin-top: -15px;
+}
+.segundo_bloque_derecho{
+	height: 100%;
+	    margin-left: 30px;
+	float: left;
+}
+.segundo_bloque_derecho p{
+	color: #fff;
+	font-family: letra1;
+	font-size: 1.1em;
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.segundo_bloque_derecho p span{
+	color: #c7a846;
+}
+
+.bloque_imagen{
+	width: 400px;
+	height: 400px;
+	
+	float: right;
+}
+
+.bloque_imagen img{
+	width: 100%;
+}
+
+
+
+.tercer_bloque{
+width: 100%;
+height: 200px;
+
+}
+.tercer_bloque_izquierdo{
+	height: 100%;
+	width: 200px;
+	
+	float: left;
+}
+.tercer_bloque_izquierdo img{
+	
+	width: 110px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 5px;
+}
+.tercer_bloque_derecho{
+	    display: inline-block;
+	margin-top: 50px;
+	
+	
+}
+.tercer_bloque_derecho_imagen{
+    width: 30%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.tercer_bloque_derecho_imagen img{
+	width: 100%;
+	display: inline-block;
+}
+
+.tercer_bloque_derecho_texto{
+	    color: #fff;
+    font-family: letra2;
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* float: left; */
+    display: inline-block;
+    margin-left: 25px;
+}
+.texto4{
+	font-family: letra1;
+	font-size: 2.3em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+.video{
+	width: 100%;
+
+	-webkit-box-shadow: -1px 3px 44px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 44px 7px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 44px 7px rgba(0,0,0,0.75);
+}
+.video img{
+	width: 100%;
+
+		-webkit-box-shadow: inset -1px 3px 44px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px 3px 44px 7px rgba(0,0,0,0.75);
+box-shadow: inset -1px 3px 44px 7px rgba(0,0,0,0.75);
+}
+
+.video img:hover{
+	cursor: pointer;
+}
+
+.contenedor_video_modal{
+		    width: 96%;
+    position: fixed;
+    left: 2%;
+    display: none;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    top: 3%;
+    z-index: 99999999999999999999999999999;
+    height: 90%;
+    text-align: center;
+}
+
+.contenedor_cerrar{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	right: -12px;
+	top: -12px;
+	z-index: 100000000000000;
+	background-color: black;
+	border-radius: 100%;
+}
+.contenedor_cerrar img{
+	width: 100%;
+	border-radius: 100%;
+}
+
+
+
+
+
+.pelea_estelar{
+	width: 100%;
+	
+	 background-image: url('Textura1.png');
+	 background-repeat:no-repeat;
+	
+	 background-size:cover;
+	 margin-top: 100px;
+	 
+}
+.peleador_izquierdo{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.peleador_izquierdo img{
+	width: 100%;
+}
+.info_peleador_izquierdo{
+	width: 270px;
+	position: absolute;
+	/*left: 50px;*/
+	margin-top: 30%;
+	left: 20%;
+}
+.info_peleador_izquierdo img{
+	width: 100%;
+}
+.info_peleador_izquierdo p{
+	color: #fff;
+	font-family: letra1;
+	margin-top: 3px;
+}
+.info_peleador_izquierdo p:hover{
+cursor: pointer;
+}
+
+
+
+
+
+.peleador_derecho{
+	width: 49%;
+	height: auto;
+	float: right;	
+}
+
+.peleador_derecho img{
+	width: 85%;
+	float: right;
+}
+.info_peleador_derecho{
+	width: 270px;
+	float: right;
+	margin-top: 30%;
+	position: absolute;
+	right: 20%;
+}
+.info_peleador_derecho img{
+	width: 100%;
+}
+.info_peleador_derecho p{
+	color: #fff;
+	font-family: letra1;
+	margin-top: 3px;
+	text-align: right;
+}
+.info_peleador_derecho p:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pelea_estelar_centrado{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.contenedor_pelea_estelar_imagen{
+	max-width: 400px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pelea_estelar_centrado img{
+	width: 100%;
+}
+
+
+
+
+
+.todos_lospeleadores{
+	width: 100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-top: 100px;
+
+}
+.todos_lospeleadores .peleadores{
+	width: 100%;
+}
+
+.todos_lospeleadores .peleadores img{
+	width: 100%;
+}
+
+
+.texto_peleadores1 , .texto_peleadores2{
+	color: #c7a846; 
+
+	text-align: center;
+	font-family: letra2;
+	    font-size: 45px;
+    letter-spacing: 7px;
+    margin-bottom: 0px;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.texto_peleadores1{
+	font-size: 45px;
+	letter-spacing: 7px;
+	margin-bottom: 0px;
+}
+
+.texto_peleadores2{
+	font-size: 35px;
+	letter-spacing: 7px;
+	margin-top: -0px;
+}
+
+
+
+
+
+.venta_boletos{
+	width: 100%;	
+	background-image: url('fondo_estelar.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+.contenedor_izquierdo{
+	width: 50%;
+	float: left;
+	padding: 50px;
+	padding-left: 70px;
+}
+
+.contenedor_izquierdo p{
+	font-family: letra2;
+	color: #c7a846;
+	font-size: 53px;
+	letter-spacing: 10px;
+}
+.venta_boletos_img{
+	width: 100%;
+}
+.venta_boletos_img img{
+	width: 100%;
+}
+.redes{
+	width: 100%;
+	
+	text-align: center;
+	margin-top: 50%;
+}
+
+.redes p{
+	font-family: letra1;
+	color:#fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: justify-all;
+	font-size: 1.6em;
+}
+
+.redes img{
+	width: 50%;
+	max-width: 200px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.venta_boletos .peleador{
+	width:50%;
+	
+	float: right;
+}
+
+.venta_boletos .peleador img{
+	width: 100%;
+}
+
+.abajo{
+	width: 100%;
+	height: 30px;
+	clear: both;
+}
+
+
+
+#contenedor_modal{width:100%; height:100%; background-color:rgba(0,0,0,0.7);  z-index:10000000000000; position:absolute; top:0px; left:0px; display:none; padding: 0px 0px;}
+#contenedor_modal #info_efrain{
+	width: 98%;
+	max-width: 370px;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    z-index: 100000000000000000;
+    position: fixed;
+    left: 50%;
+    margin-left: -188px;
+    box-shadow: 0 0 18px #c7a846;
+}
+.info_peleador_izquierdo_modal{
+	width: 270px;
+	float: left;
+	background: transparent;
+
+	position: relative;
+}
+#cerrar{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 0px;
+}
+#cerrar:hover{
+	cursor: pointer;
+}
+.info_peleador_izquierdo_modal img{
+	width: 100%;
+}
+.info_peleador_izquierdo_modal p{
+	color: #fff;
+	font-family: letra1;
+	margin-top: 3px;
+}
+
+
+
+
+
+
+
+#contenedor_modal2{
+	width:100%; height:100%; background-color:rgba(0,0,0,0.7);  z-index:10000000000000; position:absolute; top:0px; left:0px; display:none; padding: 0px 0px;}
+#contenedor_modal2 #info_bruno{
+	max-width: 370px;
+	width: 98%;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    z-index: 100000000000000000;
+    position: fixed;
+    left: 50%;
+    margin-left: -185px;
+    box-shadow: 0 0 18px #c7a846;
+}
+#contenedor_modal3{
+	width:100%; height:100%; background-color:rgba(0,0,0,0.7);  z-index:10000000000000; position:absolute; top:0px; left:0px; display:none; padding: 0px 0px;}
+#contenedor_modal3 #info_humberto{
+	max-width: 370px;
+	width: 98%;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    z-index: 100000000000000000;
+    position: fixed;
+    left: 50%;
+    margin-left: -185px;
+    box-shadow: 0 0 18px #c7a846;
+}
+#contenedor_modal4{
+	width:100%; height:100%; background-color:rgba(0,0,0,0.7);  z-index:10000000000000; position:absolute; top:0px; left:0px; display:none; padding: 0px 0px;}
+#contenedor_modal4 #info_ruben{
+	max-width: 370px;
+	width: 98%;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    z-index: 100000000000000000;
+    position: fixed;
+    left: 50%;
+    margin-left: -185px;
+    box-shadow: 0 0 18px #c7a846;
+}
+.info_peleador_derecho_modal{
+	width: 270px;
+	float: left;
+	background: transparent;
+
+	position: relative;
+}
+.info_peleador_derecho_modal img{
+	width: 100%;
+}
+.info_peleador_derecho_modal p{
+	color: #fff;
+	font-family: letra1;
+	margin-top: 3px;
+	text-align: right;
+}
+#cerrar2{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 0px;
+}
+#cerrar2:hover{
+	cursor: pointer;
+}
+.bloquea{
+	width: 20%;
+	max-width: 200px;
+	float: left;
+padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bloqueb{
+	float:left;
+	width: 80%;
+	min-height: 600px;
+}
+.guantes{
+	    float: right;
+    width: 30%;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    z-index: -10000;
+}
+#ver_mas_humberto, #ver_mas_rodolfo{
+	text-shadow: 0 0 10px #111;
+
+}
+@media screen and (max-width: 800px) {
+	.bloquea{
+		max-width: 100%;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding-bottom: 0;
+	}
+	.bloqueb{
+		width: 100%;
+		    text-align: center;
+	}
+	.primer_bloque_derecho{
+		width: 100%;
+		margin-left: 0;
+	}
+	.texto2{
+		font-size: 3em;
+		margin-bottom: 17px;
+	}
+	.guantes{
+		display: none;
+	}
+	.tercer_bloque_derecho_imagen{
+		    width: 50%;
+    /* display: inline-block; */
+
+    margin-right: auto;
+	}
+	.tercer_bloque_derecho{
+		text-align: center;
+	}
+	.info_peleador_izquierdo{
+		    width: 270px;
+    position: absolute;
+    /* left: 50px; */
+    /* margin-top: 300px; */
+    left: 13%;
+    transform: scale(0.5);
+    /* margin-top: 10%; */
+
+	}
+	.info_peleador_derecho {
+    width: 270px;
+    float: right;
+    position: absolute;
+    right: 13%;
+    transform: scale(0.5);
+	}
+	.contenedor_izquierdo{
+		width: 100%;
+	}
+	.venta_boletos .peleador{
+		width: 100%;
+	}
+	.contenedor_izquierdo p{
+		text-align: center;
+	}
+	.segundo_bloque_derecho{
+		width: 100%;
+		margin-left: 0;
+	}
+	.tercer_bloque_derecho_texto{
+		    color: #fff;
+    font-family: letra2;
+    font-size: 1em;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    /* float: left; */
+    /* display: inline-block; */
+    margin-left: 25px;
+    display: initial;
+	}
+	.redes p{
+		font-size: 1.3em;
+	}
+	.texto_peleadores1{
+		margin-top: 30px;
+	}
+	.contenedor_izquierdo{
+		padding-left: 50px;
+	}
+	.abajo{
+		height: 0px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.info_peleador_izquierdo{
+		margin-left: -15%;
+		left: 0%;
+	}
+	.info_peleador_derecho{
+		margin-right: -15%;
+		right: 0%;
+	}
+	.contenedor_izquierdo{
+		padding: 10px;
+	}
+}
+@media screen and (min-width: 1300px) {
+	.wrap_container{	    
+		max-width: 1300px;
+		left: 50%;
+		margin-left: -650px;
+    	position: absolute;
+	}
+	.info_peleador_derecho{
+		margin-right: 0%;
+	}
+	.info_peleador_izquierdo{
+		margin-left: 0%;
+	}
+	
+}
+@media screen and (max-width: 370px) {
+	#contenedor_modal #info_efrain{
+		left: 1%;
+		margin-left: 0;
+	}
+	#contenedor_modal2 #info_bruno{
+		left: 1%;
+		margin-left: 0;
+	}
+	#contenedor_modal3 #info_humberto{
+		left: 1%;
+		margin-left: 0;
+	}
+	#contenedor_modal4 #info_ruben{
+		left: 1%;
+		margin-left: 0;
+	}
+}
+@media all and (orientation: portrait) {
+	.contenedor_video_modal video{
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		margin-top: 20%;
+	}
+}
+@media all and (orientation: landscape) {
+	.contenedor_video_modal video{
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: 100%;
+	}
+}
